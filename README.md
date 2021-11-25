@@ -10,6 +10,14 @@ For creating the Chess AI, we will be using the convolutional neural network alg
 ->	We created the convolutional neural layers to increase the accuracy of the moves using the relu and sigmoid function and also implemented a tensorflow library to execute the layers.
 ->	After creating the layers, we used to flatten and dense to get one possible move which can be played in order to win. We used 150000 board positions to compare the moves. After that we also added 25 epochs for testing.
 
+# XAI part
+The bot looks at the evaluation of pieces on the board and looks at that evaluation to better improve moves being made. So setting the parameters on making better board evaluated moves will be meaningful for the later stages of the game.
+
+# For Improvements
+
+Since the model on trains on 25 epochs it does not play very well, increasing the number of epochs or making the convolutional neural network more complex will likey make it more accurate when making moves.
+Adding midgame and endgame functions that optimize moves being made will be the best improvement on the Chess AI.
+
 ![s](https://user-images.githubusercontent.com/68383587/143404281-fde4998a-eb74-44fb-93e4-e304620d9cd8.png)
 
 ![s1](https://user-images.githubusercontent.com/68383587/143404304-dd8db6ed-68f5-4200-b92d-4135a1fbbfed.png)
@@ -19,7 +27,11 @@ For creating the Chess AI, we will be using the convolutional neural network alg
 Result
 For the result we made the stockfish algorithm play with our Chess bot. Our programme sends 25 epochs to train and get the best move out of it. The bot plays against Stockfish. The bot couldn't win any games against the stockfish as we had a low accuracy rate and also we deployed only 25 epoch which limits the accuracy of the move. 
 ![image](https://user-images.githubusercontent.com/68383587/143404221-ba90817a-f94b-4101-9f0b-293ab458614a.png)
+
 ![image](https://user-images.githubusercontent.com/68383587/143404241-afcea0de-6972-4170-8dea-61a3528de9bb.png)
+
+For dataset being used
+https://drive.google.com/file/d/1tohTLO-8kixZWdEgb0bX_CA5nmz0lmO5/view?usp=sharing
 # References
 1.	FreeCodeCamp.org. (2017, March 15). A step-by-step guide to building a simple chess AI. Retrieved from https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/
 2.	About DecodeChess - Company, Technology, and Management Team. (2021, February 24). Retrieved from https://decodechess.com/about/
