@@ -9,6 +9,7 @@ For creating the Chess AI, we will be using the convolutional neural network alg
 ->	We created random boards to evaluate the possible moves. The analysing of the possible moves helps to predict the next move. Also, associating scores to the pieces helps to analyse and predict the next move. We created 14 boards to evaluate the position of pieces on the board. 
 ->	We created the convolutional neural layers to increase the accuracy of the moves using the relu and sigmoid function and also implemented a tensorflow library to execute the layers.
 ->	After creating the layers, we used to flatten and dense to get one possible move which can be played in order to win. We used 150000 board positions to compare the moves. After that we also added 25 epochs for testing.
+
 ![s](https://user-images.githubusercontent.com/68383587/143404281-fde4998a-eb74-44fb-93e4-e304620d9cd8.png)
 ![s1](https://user-images.githubusercontent.com/68383587/143404304-dd8db6ed-68f5-4200-b92d-4135a1fbbfed.png)
 
