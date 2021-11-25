@@ -11,6 +11,7 @@ For creating the Chess AI, we will be using the convolutional neural network alg
 ->	After creating the layers, we used to flatten and dense to get one possible move which can be played in order to win. We used 150000 board positions to compare the moves. After that we also added 25 epochs for testing.
 
 ![s](https://user-images.githubusercontent.com/68383587/143404281-fde4998a-eb74-44fb-93e4-e304620d9cd8.png)
+
 ![s1](https://user-images.githubusercontent.com/68383587/143404304-dd8db6ed-68f5-4200-b92d-4135a1fbbfed.png)
 
 ->	Next, we implemented the Minmax algorithm by visualizing all moves that can be made and evaluates finals moves Along with this we will be using alpha-beta pruning to optimize all the moves we got from minmax algorithm to find out the best move that can be made.
